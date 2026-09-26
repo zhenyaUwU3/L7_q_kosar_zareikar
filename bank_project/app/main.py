@@ -1,13 +1,13 @@
-from bank.account import show_balance
-from bank.fees import apply_fee
-from app.calculator import deposit
+from ..bank.account import show_balance
+from ..bank.fees import apply_fee
+from .calculator import deposite
 
 
 balance = 1000
 
 print(show_balance(balance))
 
-balance = deposit(balance, 500)
+balance = deposite(balance, 500)
 
 print(show_balance(balance))
 

@@ -1,2 +1,2 @@
-def show_balance(balance)
-return balance * 100
+def show_balance(balance):
+    return balance * 100
